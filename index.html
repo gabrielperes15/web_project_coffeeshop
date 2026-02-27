@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta
+      name="description"
+      content="Café especial na biblioteca Triple Peaks"
+    />
+    <meta name="author" content="Leonardo Dias" />
+    <meta
+      name="keywords"
+      content="café, cafeteria, bebidas, ambiente aconchegante"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Triple Coffee</title>
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            class="nav__logo"
+            alt="Logo da Triple Espresso"
+          />
+
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="recipes">Receitas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Reservar uma mesa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <h1 class="header__title">
+            <span>Café especial</span>
+            <span>na biblioteca Triple Peaks</span>
+          </h1>
+
+          <p class="header__description">
+            Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+            você e vibrações aconchegantes para soltar a criatividade.
+          </p>
+        </div>
+
+        <img
+          src="./images/inside_coffee_shop.png"
+          class="header__image"
+          alt="Imagem da cafeteria"
+        />
+
+        <footer class="header__footer">
+          <ul class="header__hours">
+            <li>Horários:</li>
+            <li>Segunda a sexta (10:00 - 19:00)</li>
+            <li>Sábado a domingo (11:00 - 18:00)</li>
+          </ul>
+          <p class="header__address">
+            200 Success Avenue, a cidade de Triple Peaks
+          </p>
+        </footer>
+      </header>
+      <main class="content">
+        <section class="recipes" id="recipes">
+          <div>
+            <h2 class="recipes__title">Receitas</h2>
+            <p class="recipes__subtitle-first-part">
+              Confira algumas receitas que coletamos para
+            </p>
+            <p class="recipes__subtitle-second-part">seu lanchinho caseiro:</p>
+          </div>
+          <ul class="recipes__videos">
+            <li class="recipes__item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=t9Dit_ycAKzfsuVp"
+                title="YouTube video player"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="caption">
+                <p class="recipes__caption-first-words">Receita Aeropress</p>
+                <p class="recipes__caption-last-words">~5 min</p>
+              </div>
+            </li>
+            <li class="recipes__item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=_9GHKzTRg5Du6lI9"
+                title="YouTube video player"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="caption">
+                <p class="recipes__caption-first-words">
+                  Receita de Prensa Francesa
+                </p>
+                <p class="recipes__caption-last-words">~15 min</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="reservation"></section>
+      </main>
+    </div>
+  </body>
+</html>
