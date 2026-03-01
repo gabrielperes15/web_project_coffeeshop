@@ -120,9 +120,10 @@
 }
 
 .header__footer {
+  position: relative;
 }
 
-.header__hours {
+.footer__hours {
   list-style-type: none;
   position: absolute;
   left: 80px;
@@ -135,7 +136,7 @@
   color: #838383;
 }
 
-.header__address {
+.footer__address {
   position: absolute;
   right: 80px;
   bottom: 40px;
