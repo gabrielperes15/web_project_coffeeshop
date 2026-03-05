@@ -276,14 +276,12 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-left: 0;
-  margin-top: 100px;
-  margin-right: 0;
-  margin-bottom: 80px;
+  margin: 0;
 }
 
 .form {
   max-width: 385px;
+  margin-top: 80px;
 }
 
 .form__fieldset {
