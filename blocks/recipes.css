@@ -10,11 +10,6 @@
   height: 858px;
 }
 
-.caption {
-  display: flex;
-  justify-content: space-between;
-}
-
 .recipes__title {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
